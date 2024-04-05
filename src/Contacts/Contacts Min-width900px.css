@@ -1,0 +1,29 @@
+@media screen and (min-width: 900px) {
+  .contact__title {
+    color: #39b54a;
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 0.3rem;
+    line-height: 3rem;
+    text-transform: uppercase;
+  }
+  .contact__title--description {
+    color: #ffffff;
+    font-size: 5.5rem;
+    margin-top: 1rem;
+    font-weight: bold;
+  }
+  .contact__container--contact {
+    display: flex;
+    flex-direction: row;
+  }
+  .contact__box--form {
+    flex: 2;
+  }
+  .contact__box--reach--out {
+    background: #121212;
+    margin-top: 0;
+    flex: 1;
+    padding-top: 2rem;
+  }
+}

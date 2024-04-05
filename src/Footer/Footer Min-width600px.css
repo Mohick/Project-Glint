@@ -1,0 +1,29 @@
+@media screen and (min-width: 600px) {
+  .footer__box--items--logo {
+    align-items: start;
+  }
+  .footer__box--item--alert--subcribe {
+    display: flex;
+    margin-top: 3rem;
+    align-items: center;
+    flex-direction: row;  
+    background: #0f0f0f;
+  }
+  .footer__box--item--alert--subcribe--input--search {
+    flex: 1;
+  }
+   .footer__box--item--alert--subcribe--input--submit {
+    display: inline-block;
+    width: auto;
+   }
+  .footer__box--item--alert--subcribe--input--search,
+  .footer__box--item--alert--subcribe--input--submit {
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+  }
+  .footer__box--item--alert--subcribe--label--icon {
+    display: block;
+  }
+}

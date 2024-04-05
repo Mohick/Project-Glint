@@ -1,0 +1,39 @@
+@media screen and (min-width: 600px) {
+  .services__box--title > h3 {
+    text-transform: uppercase;
+    font-size: 1.7rem;
+  }
+  .services__box--title > h2 {
+    font-size: 4.5rem;
+  }
+  .services__box--description {
+    font-size:2.0rem;
+    line-height: 1.6;
+    text-align: center;
+  }
+  .services__box--achieve {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 5rem;
+    gap: 2rem;
+    text-align: center;
+  }
+
+  .services__items--achieve {
+    border: 0rem solid #ffffff6b;
+    display: flex;
+    gap: 2rem;
+  }
+  .services__items--achieve--icon {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 0;
+  }
+  .services__items--achieve:nth-child(odd) {
+    border-right: 0.1rem solid #ffffff6b;
+  }
+  .services__box--title--achive {
+    text-align: start;
+    flex: 2;
+  }
+}

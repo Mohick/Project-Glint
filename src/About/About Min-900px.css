@@ -1,0 +1,44 @@
+@media screen and (min-width: 900px) {
+  .about__box--achieve {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 5rem;
+    gap: 2rem;
+    text-align: center;
+  }
+  .about__items--achieve:last-child,
+  .about__items--achieve {
+    border: 0rem solid #ffffff6b;
+  }
+  .about__items--achieve {
+    border-right: 0.1rem solid #ffffff6b;
+  }
+  .about__box--title > h3 {
+    text-transform: uppercase;
+    font-size: 1.7rem;
+  }
+  .about__box--title > h2 {
+    color: white;
+    font-size: 7.2rem;
+  }
+  .about__box--description {
+    font-size:2.2rem;
+    line-height: 1.6;
+    text-align: center;
+  }
+  .about__bar--scroll {
+    top: -10rem;
+    height: 20rem;
+
+  }
+  .about__bar--scroll--title {
+    position: absolute;
+    width: 8rem;
+    right: 100%;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    font-weight: bold;
+    animation: abloutJumpTitle 1s linear infinite;
+    -webkit-animation: abloutJumpTitle 1s linear infinite;
+  }
+}

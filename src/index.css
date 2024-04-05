@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  transition: all .3s linear;
+  -webkit-transition: all .3s linear;
+  -moz-transition: all .3s linear;
+  -ms-transition: all .3s linear;
+  -o-transition: all .3s linear;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+body {
+  background-image: url("../../public/bg website/bg1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Open Sans", sans-serif;
+  background-position: center center;
+  background-attachment: fixed;
+
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+    transform: translateY(100px);
+    -webkit-transform: translateY(100px);
+    -moz-transform: translateY(100px);
+    -ms-transform: translateY(100px);
+    -o-transform: translateY(100px);
+}
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.layout {
+  padding: 2rem;
+}
+.show {
+  opacity: 1 !important;
+}
+@media (min-width: 1300px) {
+  .layout {
+    max-width: 1300px;
+    width: 100%;
+    padding: rem;
+    margin: auto;
+  }
+}

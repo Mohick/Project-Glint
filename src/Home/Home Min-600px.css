@@ -1,0 +1,98 @@
+@media screen and (min-width: 600px) {
+  #home {
+    display: flex;
+  }
+  .home__box--content--description--and--button {
+    flex: 2;
+  }
+  .home__title {
+    font-size: 1.5rem;
+    text-align: start;
+  }
+  .home__description {
+    font-size: 3rem;
+    text-align: start;
+  }
+  .home__box--button {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .home__box--contact {
+    
+    flex: 1;
+    display: flex;
+    gap: 1.3rem;
+    flex-direction: column;
+    justify-content: start;
+    align-items: end;
+  }
+  .home__media--icon {
+    fill: #494847;
+    width: 4rem;
+    height: 4rem;
+    padding: 1.1rem;
+    border: 0.2rem solid #fff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+  }
+  .home__media--icon:first-child {
+    padding: 1.3rem;
+  }
+  .home__media--icon--twitter:hover,
+  .home__media--icon--instargram:hover,
+  .home__media--icon--behance:hover,
+  .home__media--icon--dribbble:hover,
+  .home__media--icon--facebook:hover,
+  .home__media--icon--facebook:hover {
+    background-color: #fff;
+  }
+  .home__media--icon--twitter:hover::after,
+  .home__media--icon--instargram:hover::after,
+  .home__media--icon--behance:hover::after,
+  .home__media--icon--dribbble:hover::after,
+  .home__media--icon--facebook:hover::after {
+    position: absolute;
+    text-transform: capitalize;
+    right: 120%;
+    color: #39b54a;
+    font-size: 1.4rem;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    animation: homeShowNameIcon 0.3s linear;
+    -webkit-animation: homeShowNameIcon 0.3s linear;
+}
+  .home__media--icon--facebook:hover::after {
+    content: "facebook";
+  }
+  .home__media--icon--twitter:hover::after {
+    content: "twitter";
+  }
+  .home__media--icon--instargram:hover::after {
+    content: "instargram";
+  }
+  .home__media--icon--behance:hover::after {
+    content: "behance";
+  }
+  .home__media--icon--dribbble:hover::after {
+    content: "dribbble";
+  }
+
+  @keyframes homeShowNameIcon {
+    from {
+      right: 0;
+      opacity: 0;
+    }
+    to {
+      right: 120%;
+      opacity: 1;
+    }
+  }
+}

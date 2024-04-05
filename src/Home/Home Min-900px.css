@@ -1,0 +1,25 @@
+@media screen and (min-width: 900px) {
+  .home__box--content--description--and--button {
+    flex: 2;
+  }
+  .home__title {
+    font-size: 1.6rem;
+    text-align: start;
+  }
+  .home__description {
+    font-size: 4.5rem;
+    text-align: start;
+  }
+  .home__box--button {
+    margin-top: 14rem;
+  }
+  .home__box--contact {
+    gap: 3;
+    flex: 2;
+    display: flex;
+    gap: 1.3rem;
+    flex-direction: column;
+    justify-content: start;
+    align-items: end;
+  }
+}

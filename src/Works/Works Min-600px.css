@@ -1,0 +1,9 @@
+@media screen and (min-width: 600px) {
+  .works--title {
+    color: #39b54a;
+    font-size: 2rem;
+  }
+  .works--description {
+    font-size: 5.5rem;
+  }
+}

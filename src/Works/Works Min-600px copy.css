@@ -1,0 +1,23 @@
+@media screen and (min-width: 600px) {
+  .works__box__img {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .works__box__first--img,
+  .works__box__last--img {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .works__box__last--img {
+    height: auto;
+  }
+  .works__box__first--img--3,
+  .works__box__first--img--2,
+  .works__box__first--img--1 {
+    flex: 1;
+  }
+  
+}

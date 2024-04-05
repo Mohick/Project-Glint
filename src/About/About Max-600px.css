@@ -1,0 +1,111 @@
+#about {
+  background: #39b54a;
+  padding-top: 6rem;
+  position: relative;
+  padding-bottom: 6rem;
+  min-height: 100vh;
+}
+.about__bar--scroll {
+  position: absolute;
+  top: -5rem;
+  right: 10%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  background: linear-gradient(0deg, #ffff 50%, #39b54a -50%);
+  width: 0.2rem;
+  height: 10rem;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  color: #ffff;
+}
+.about__bar--scroll--title {
+  position: absolute;
+  width: 8rem;
+  right: 100%;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  font-weight: bold;
+  animation: abloutJumpTitle 1s linear infinite;
+  -webkit-animation: abloutJumpTitle 1s linear infinite;
+}
+.about__box--title {
+}
+.about__box--title > h2,
+.about__box--title > h3 {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+.about__box--title > h3 {
+  text-transform: uppercase;
+  font-size: 1.4rem;
+}
+.about__box--title > h2 {
+  color: white;
+  font-size: 4.9rem;
+}
+.about__bar--title {
+  width: 80%;
+  height: 0.1rem;
+  background: #fff;
+  margin: auto;
+  margin-top: 3rem;
+  margin-bottom: 6rem;
+}
+.about__box--description {
+  font-size: 1.7rem;
+  line-height: 1.6;
+  text-align: center;
+}
+.about__box--achieve {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin-top: 5rem;
+    gap: 2rem;
+    text-align: center;
+
+}
+.about__items--achieve {
+    border-bottom: .1rem solid #ffffff6b;
+    padding: 1rem;
+}
+.about__items--achieve--number {
+    font-size: 7.4rem;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 1rem;
+}
+.about__items--achieve--title {
+    font-weight: bold;
+    font-size: 1.6rem;
+    padding-bottom: 1rem;
+    text-transform: capitalize;
+}
+@keyframes abloutJumpTitle {
+  0% {
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+  }
+  100% {
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+  }
+}

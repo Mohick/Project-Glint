@@ -1,0 +1,9 @@
+@media screen and (min-width: 900px) {
+  .services__box--title > h2 {
+    font-size: 4.1rem;
+  }
+  .services__box--title > h3 {
+    text-transform: uppercase;
+    font-size: 1.7rem;
+  }
+}

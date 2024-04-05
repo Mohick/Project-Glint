@@ -1,0 +1,16 @@
+@media screen and (min-width: 600px) {
+  .client--title {
+    font-size: 1.7rem;
+;
+  }
+  .client--description {
+    font-size: 4rem;
+  }
+  .client__container--slider--users {
+    padding: 0 2rem;
+  }
+  .client__box--slider--users--description {
+     font-size: 2.5rem;
+ 
+  }
+}

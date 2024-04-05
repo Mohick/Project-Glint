@@ -1,0 +1,55 @@
+#home {
+  padding-top: 5rem;
+  min-height:95vh
+}
+.home__title {
+  color: #84878a;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+}
+.home__description {
+  margin-top: 2rem;  color: #ffffff;
+  font-size: 3.2rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 1.2rem;
+}
+.home__box--button {
+  margin-top: 5rem;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(1, 1fr);
+  padding-bottom: 6rem;
+}
+.home__button--more,
+.home__button--project {
+  text-align: center;
+  padding: 1.2rem;
+  border: 0.2rem solid #ffffff;
+  color: #ffffff;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.home__button--more:hover,
+.home__button--project:hover {
+  animation: homeHoverBtn .6s linear forwards ;
+  -webkit-animation: homeHoverBtn .6s linear forwards ;
+}
+
+@keyframes homeHoverBtn {
+  to {
+    color: #000000;
+    background-color: #ffffffff;
+  }
+}
+.home__button--project {
+}
+.home__button--more {
+}
+
+.home__box--contact {
+  display: none ;
+}

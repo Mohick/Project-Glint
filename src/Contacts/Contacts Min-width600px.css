@@ -1,0 +1,28 @@
+@media screen and (min-width:600px){
+  .contact__title {
+    color: #39b54a;
+    font-size: 1.7rem;
+    font-weight: bold;
+    letter-spacing: 0.3rem;
+    line-height: 3rem;
+    text-transform: uppercase;
+  }
+  .contact__title--description {
+    color: #ffffff;
+    font-size: 4rem;
+    margin-top: 1rem;
+    font-weight: bold;
+  }
+  .contact__box--reach--out {
+    justify-content: start;
+    align-items: start;
+    padding: 0 1.5rem;
+  }
+  .contact__reach--out--item--title {
+    text-align: start;
+  }
+  .contact__reach--out--item--contact {
+    justify-content: start;
+    align-items: start;
+  }
+}
